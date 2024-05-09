@@ -28,4 +28,5 @@ Comparative analysis of different machine learning algorithms for HIV/AIDS class
 Recommendations for healthcare practitioners and policymakers based on model insights.  
 
 Data source: https://www.kaggle.com/datasets/aadarshvelu/aids-virus-infection-prediction/data
-GitHub: https://github.com/MASMAYAWA/Bootcamp-Project-04
+
+GitHub: https://github.com/MASMAYAWA/Bootcamp-Project-04  
