@@ -10,7 +10,7 @@ This project will provide valuable insights to healthcare practitioners and poli
 
 The purpose of this analysis is to create a binary classification model using different machine learning techniques to predict if an individual with HIV symptoms will be infected to AIDs after receiving particular treatment after 20 days. The models utilizes a dataset of 2139 individuals with HIV symptoms that have received different types of treatment over 20 days, after this period of time their cd4 cells were measured to check the improvement with symptoms and determining if they are infected to AIDS virus or not. 
 
-### ETL
+## ETL
 In this project we have saved our dataset in the PostgreSQL database before consuming the data. AIDs.sql is the SQL code for creating the table, Data_cleaning.ipynb is where we did the transform stage (data cleaning). These are the steps in our ETL pipeline:
 
 * Extract data as a CSV file from Kaggle 
@@ -23,7 +23,7 @@ In this project we have saved our dataset in the PostgreSQL database before cons
 ## Data Preprocessing
 
 Our dataset includes "treatment", "ZDV_only_treatment","off_treatment","hemophilia", "homosexual_activity", "drugs", "race",\
-"gender", "karnofsky_score","therapy_prior","ZDV_last_30days","ART_history","ART_history_stratified", "symptom". The detailed information about each feature and also a comprehensive report of the project is provided in the Project4_Report file.
+"gender", "karnofsky_score","therapy_prior","ZDV_last_30days","ART_history","ART_history_stratified", "symptom". The detailed information about each feature and also a comprehensive report of the project is provided in the Project4_Predicting_AIDS_Pprogression_Report.pdf file.
  . Data exploration and data visualisation can be find in the Data_explore_and_vis.ipynb.
  A Tableau dashboard is created to provide an insight to variables affecting AIDS infection rate. It can be find on Tableau Public https://public.tableau.com/shared/BJN54DFNP?:display_count=n&:origin=viz_share_link
 
