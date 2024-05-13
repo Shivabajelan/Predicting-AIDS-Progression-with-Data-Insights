@@ -20,10 +20,13 @@ In this project we have saved our dataset in the PostgreSQL database before cons
 * Connect to PostgrSQL database with SQLAlchemy and query the data
 * Load data into a Pandas DataFrame to utilise our different algorithms
 
-### Data Preprocessing
+## Data Preprocessing
 
 Our dataset includes "treatment", "ZDV_only_treatment","off_treatment","hemophilia", "homosexual_activity", "drugs", "race",\
-"gender", "karnofsky_score","therapy_prior","ZDV_last_30days","ART_history","ART_history_stratified", "symptom". The detailed information about each feature and also a comprehensive report of the project is provided in the report file??????. The preprocessing steps include:
+"gender", "karnofsky_score","therapy_prior","ZDV_last_30days","ART_history","ART_history_stratified", "symptom". The detailed information about each feature and also a comprehensive report of the project is provided in the Project4_Report file.
+ . Data exploration and data visualisation can be find in the Data_explore_and_vis.ipynb.
+
+  The preprocessing steps include:
 
 * Identifying and handling null values
 * Identifying important variables for model training
@@ -31,17 +34,27 @@ Our dataset includes "treatment", "ZDV_only_treatment","off_treatment","hemophil
 * Scaling numerical values
 ![key stages of a data science project](Resources/key_stages_of_data_science_project_8e629c3b9c.png)
 
-### Machine Learning Models
+## Machine Learning Models
 Implement multiple machine learning algorithms, including Neural Networks, Random Forest, SVM, KNN and, Logistic Regression models.  
 Train and validate each model using appropriate evaluation metrics, such as accuracy, precision, recall, and F1-score.  
 Compare the performance of each model based on evaluation metrics to determine the most effective approach. 
+All the implemented ML models can be find in the AIDS_prediction_Final.ipynb file.
 
-In machine learning, particularly in medical diagnostics, minimizing false negatives—cases where a disease is present but not detected—is crucial. For instance, in cancer screening, a false negative could mean that a patient does not receive timely treatment, potentially leading to severe health outcomes or even death. Therefore, models are often designed to prioritize sensitivity, ensuring that the majority of true positive cases are correctly identified, even if it results in a higher number of false positives. These false positives can be further evaluated through additional testing, but missing a true case can be much more detrimental. This approach helps in early detection and treatment, significantly improving patient survival rates. In our case we are after a model with highest recall to predict individuals infected to AIDS with the highest percentage.
+According to the concept of our medical dataset and the importance of predicting individuals infected with AIDS in order to getting timely treatment, accuracy and recall for the infected class(class 1)  are considered as the most important metrics for choosing the best model in this project. So Neural Network is the best model with an accuracy of % 90 and a recall of %76.
 
-According to the concept of our dataset and the above explanation, the best two models with higher recall and accuracy are: 
+![DNN_best_model](Resources/DNN_best_model.png)
 
-### Data source
+Following bar charts are for comparing the performances for all the five models in this project:
+
+![acc_comparison](Resources/acc_comparison.png)
+![precision_comparison](Resources/precision_comparison.png)
+![recall_comparison](Resources/recall_comparison.png)
+
+
+
+
+## Data source
 Data source: https://www.kaggle.com/datasets/aadarshvelu/aids-virus-infection-prediction/data
 
-### License
+## License
 This project is licensed under the MIT License. 
