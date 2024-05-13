@@ -1,5 +1,5 @@
 # Predicting AIDS Progression with Data Insights
-![image](images/92525082-stop-aids-poster-world-aids-day-december-1-aids-awareness-vector-illustration.jpg)
+![image](Resources/92525082-stop-aids-poster-world-aids-day-december-1-aids-awareness-vector-illustration.jpg)
 
 
 ## Background
@@ -29,12 +29,12 @@ Our dataset includes "treatment", "ZDV_only_treatment","off_treatment","hemophil
 * Identifying important variables for model training
 * Identifying categorical and numerical values
 * Scaling numerical values
-![key stages of a data science project](images/key_stages_of_data_science_project_8e629c3b9c.png)
+![key stages of a data science project](Resources/key_stages_of_data_science_project_8e629c3b9c.png)
 
 ### Machine Learning Models
 Implement multiple machine learning algorithms, including Neural Networks, Random Forest, SVM, KNN and, Logistic Regression models.  
 Train and validate each model using appropriate evaluation metrics, such as accuracy, precision, recall, and F1-score.  
-Compare the performance of each model based on evaluation metrics to determine the most effective approach.
+Compare the performance of each model based on evaluation metrics to determine the most effective approach. 
 
 In machine learning, particularly in medical diagnostics, minimizing false negatives—cases where a disease is present but not detected—is crucial. For instance, in cancer screening, a false negative could mean that a patient does not receive timely treatment, potentially leading to severe health outcomes or even death. Therefore, models are often designed to prioritize sensitivity, ensuring that the majority of true positive cases are correctly identified, even if it results in a higher number of false positives. These false positives can be further evaluated through additional testing, but missing a true case can be much more detrimental. This approach helps in early detection and treatment, significantly improving patient survival rates. In our case we are after a model with highest recall to predict individuals infected to AIDS with the highest percentage.
 
