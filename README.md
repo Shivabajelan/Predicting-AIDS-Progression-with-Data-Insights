@@ -8,7 +8,7 @@ This project will provide valuable insights to healthcare practitioners and poli
 
 ## Overview of the Analysis
 
-The purpose of this analysis is to create a binary classification model using different machine learning techniques to predict if an individual with HIV symptoms will be infected to AIDs after receiving particular treatment after 20 days. The models utilizes a dataset of 2139 individuals with HIV symptoms that have received different types of treatment over 20 days, after this period of time their cd4 cells were measured to check the improvement with symptoms and determining if they are infected to AIDS virus or not. 
+The purpose of this analysis is to create a binary classification model using different machine learning techniques to predict if an individual with HIV symptoms will be infected to AIDs after receiving particular treatment after 20 days. The models utilises a dataset of 2139 individuals with HIV symptoms that have received different types of treatment over 20 days, after this period of time their cd4 cells were measured to check the improvement with symptoms and determining if they are infected to AIDS virus or not. 
 
 ## ETL
 In this project we have saved our dataset in the PostgreSQL database before consuming the data. AIDs.sql is the SQL code for creating the table, Data_cleaning.ipynb is where we did the transform stage (data cleaning). These are the steps in our ETL pipeline:
