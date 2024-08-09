@@ -24,7 +24,7 @@ In this project we have saved our dataset in the PostgreSQL database before cons
 
 Our dataset includes "treatment", "ZDV_only_treatment","off_treatment","hemophilia", "homosexual_activity", "drugs", "race",\
 "gender", "karnofsky_score","therapy_prior","ZDV_last_30days","ART_history","ART_history_stratified", "symptom". The detailed information about each feature and also a comprehensive report of the project is provided in the Project4_Predicting_AIDS_Pprogression_Report.pdf file.
- . Data exploration and data visualisation can be find in the Data_explore_and_vis.ipynb.
+ Data exploration and data visualisation can be find in the Data_explore_and_vis.ipynb.
  A Tableau dashboard is created to provide an insight to variables affecting AIDS infection rate. It can be find on Tableau Public https://public.tableau.com/shared/BJN54DFNP?:display_count=n&:origin=viz_share_link
 
   The preprocessing steps include:
