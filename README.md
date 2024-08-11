@@ -15,7 +15,7 @@ In this project we have saved our dataset in the PostgreSQL database before cons
 
 * Extract data as a CSV file from Kaggle 
 * Clean data with Pandas and export as CSV file
-* Design an ERD and table schema for the database
+* Create a table schema for the database
 * Create and populate PostgreSQL database table in PgAdmin
 * Connect to PostgrSQL database with SQLAlchemy and query the data
 * Load data into a Pandas DataFrame to utilise our different algorithms
